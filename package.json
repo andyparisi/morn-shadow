@@ -1,0 +1,21 @@
+{
+    "name": "theme-shadow",
+    "displayName": "theme-shadow",
+    "description": "Dark, soft palette of cool colors",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Shadow",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Shadow-color-theme.json"
+            }
+        ]
+    }
+}
