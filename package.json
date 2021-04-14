@@ -1,18 +1,23 @@
 {
-    "name": "theme-shadow",
-    "displayName": "theme-shadow",
+    "name": "theme-morn-shadow",
+    "displayName": "Morn Shadow",
     "description": "Dark, soft palette of cool colors",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.55.0"
     },
     "categories": [
         "Themes"
     ],
+    "icon": "images/icon.png",
+    "repository": {
+        "url": "https://github.com/andyparisi/morn-shadow.git",
+        "type": "git"
+    },
     "contributes": {
         "themes": [
             {
-                "label": "Shadow",
+                "label": "Morn Shadow",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Shadow-color-theme.json"
             }
